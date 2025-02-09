@@ -1,0 +1,1 @@
+This repository contains a Dockerfile with a common error and its solution. The error is that the CMD instruction in the Dockerfile references a Python script that is not copied into the image. This can cause a 'command not found' error when running the container. The solution involves correctly copying the Python script into the image before executing it.
